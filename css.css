@@ -68,7 +68,7 @@ nav{
     float: right;
     font-size: 18px;
     line-height: 6.5vh;
-    margin-right: 30px;
+    margin-right: 10px;
     display: none;
 }
 .sec3-nav{
@@ -608,6 +608,10 @@ footer i, footer span{
     }
     .viewBar{
         display: block;
+
+    }
+    .nav-s1{
+        margin-left: 15px;
     }
     nav ul{
         position: fixed;
@@ -647,6 +651,9 @@ footer i, footer span{
         width: 100%;
         background-color: rgb(189, 189, 189);
     }
+    .sec3-d1{
+        margin-top: 0px;
+    }
     .sec4-dis{
         display: none;
     }
@@ -668,6 +675,9 @@ footer i, footer span{
     }
     .sec4-d1-d h5{
         font-size: 14px;
+    }
+    .sec5{
+        padding-bottom: 30px;
     }
     .sec5-d1{
         flex-basis: 30%;
