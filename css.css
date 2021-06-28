@@ -454,11 +454,17 @@ section{
     color: rgb(201, 201, 201);
     margin-bottom: 30px;
 }
-.sec5 p, footer p{
+.sec5 a, footer p, .sec5 p{
+    text-decoration: none;
+    display: block;
     font-size: 14px;
     font-weight: 300;
     color: rgb(110, 110, 110);
     margin-bottom: 15px;
+}
+.sec5 a:hover{
+    color: white;
+    transition: 0.3s;
 }
 .sec5-d2-i1{
     width: 65%;
