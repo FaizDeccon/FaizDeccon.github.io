@@ -63,6 +63,9 @@ nav{
     font-weight: 700;
     z-index: 1;
 }
+#mb1{
+    display: none;
+}
 .viewBar{
     color: dodgerblue;
     float: right;
@@ -636,6 +639,16 @@ footer i, footer span{
     nav ul li:hover .a1{
         color: white;
         transition: 0.3s;
+    }
+    nav ul li:hover #mb1{
+        color: white;
+        transition: 0.3s;
+    }
+    #b1{
+        display: none;
+    }
+    #mb1{
+        display: inline-block;
     }
     .dropdown:hover #b1{
         color: white;
