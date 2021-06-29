@@ -402,7 +402,7 @@ section{
     padding-left: 30px;
 }
 .sec4-d1:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: 0.5s;
     box-shadow: 5px 5px 20px rgb(201, 226, 255);
 }
