@@ -5,6 +5,10 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    max-width: 1320px;
+    margin: auto;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -378,7 +382,7 @@ section{
 .sec4{
     width: 100%;
     height: 410px;
-    margin: 20vh auto;
+    margin: 80px auto;
     margin-bottom: 0px;
     background-image: url("images/bg.png");
     background-size: cover;
@@ -463,7 +467,7 @@ section{
     margin-bottom: 15px;
 }
 .sec5 a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 .sec5-d2-i1{
@@ -653,6 +657,13 @@ footer i, footer span{
         width: 100%;
         background-color: rgb(189, 189, 189);
     }
+    .sec2-d2-d{
+        width: 70%;
+    }
+    .sec2-d2 img{
+        width: 100%;
+        object-fit: contain;
+    }
     .sec3-d1{
         margin-top: 0px;
     }
@@ -661,6 +672,7 @@ footer i, footer span{
     }
     .sec4{
         height: 250px;
+        margin-top: 30px;
     }
     .sec4-d1{
         width: 90%;
@@ -777,5 +789,26 @@ footer i, footer span{
     }
     .sec4-d1-d h5{
         font-size: 10px;
+    }
+}
+@media screen and (min-width: 1320px){
+    .sec1{
+        height: max-content;
+        padding-bottom: 100px;
+    }
+    header{
+        height: max-content;
+    }
+    nav{
+        height: 80px;
+    }
+    nav label{
+        line-height: 80px;
+    }
+    nav ul li, .sec3 ul li{
+        line-height: 80px;
+    }
+    .sec2-d1 h1, .sec3-d1 h1{
+        font-size: 40px;
     }
 }
