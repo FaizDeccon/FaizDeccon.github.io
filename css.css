@@ -474,6 +474,8 @@ section{
     border-radius: 50px;
     font-weight: 500;
     outline: none;
+    color: dodgerblue;
+    font-weight: 600;
 }
 .sec5-d2-i2{
     width: 28%;
